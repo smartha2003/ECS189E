@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		232F12E82B574E7700A83B07 /* PayVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F12E72B574E7700A83B07 /* PayVaultApp.swift */; };
-		232F12EA2B574E7700A83B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F12E92B574E7700A83B07 /* ContentView.swift */; };
+		232F12EA2B574E7700A83B07 /* LogInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F12E92B574E7700A83B07 /* LogInScreenView.swift */; };
 		232F12EC2B574E7900A83B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F12EB2B574E7900A83B07 /* Assets.xcassets */; };
 		232F12EF2B574E7900A83B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F12EE2B574E7900A83B07 /* Preview Assets.xcassets */; };
+		232F12F72B57526500A83B07 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12F62B57526500A83B07 /* PhoneNumberKit */; };
+		232F12F92B57526500A83B07 /* PhoneNumberKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12F82B57526500A83B07 /* PhoneNumberKit-Dynamic */; };
+		232F12FB2B57526500A83B07 /* PhoneNumberKit-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12FA2B57526500A83B07 /* PhoneNumberKit-Static */; };
+		232F12FD2B57562900A83B07 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12FC2B57562900A83B07 /* PhoneNumberKit */; };
+		232F12FF2B57562900A83B07 /* PhoneNumberKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12FE2B57562900A83B07 /* PhoneNumberKit-Dynamic */; };
+		232F13012B57562900A83B07 /* PhoneNumberKit-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 232F13002B57562900A83B07 /* PhoneNumberKit-Static */; };
+		23B3987B2B5833E200C2AE9F /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B3987A2B5833E200C2AE9F /* LaunchScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		232F12E42B574E7700A83B07 /* PayVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		232F12E72B574E7700A83B07 /* PayVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVaultApp.swift; sourceTree = "<group>"; };
-		232F12E92B574E7700A83B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		232F12E92B574E7700A83B07 /* LogInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenView.swift; sourceTree = "<group>"; };
 		232F12EB2B574E7900A83B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232F12EE2B574E7900A83B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23B3987A2B5833E200C2AE9F /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		23B3987E2B5AD2AD00C2AE9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +35,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232F12F72B57526500A83B07 /* PhoneNumberKit in Frameworks */,
+				232F12FD2B57562900A83B07 /* PhoneNumberKit in Frameworks */,
+				232F12F92B57526500A83B07 /* PhoneNumberKit-Dynamic in Frameworks */,
+				232F12FB2B57526500A83B07 /* PhoneNumberKit-Static in Frameworks */,
+				232F12FF2B57562900A83B07 /* PhoneNumberKit-Dynamic in Frameworks */,
+				232F13012B57562900A83B07 /* PhoneNumberKit-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				232F12E72B574E7700A83B07 /* PayVaultApp.swift */,
-				232F12E92B574E7700A83B07 /* ContentView.swift */,
+				23B3987E2B5AD2AD00C2AE9F /* README.md */,
+				23B3987A2B5833E200C2AE9F /* LaunchScreenView.swift */,
+				232F12E92B574E7700A83B07 /* LogInScreenView.swift */,
 				232F12EB2B574E7900A83B07 /* Assets.xcassets */,
 				232F12ED2B574E7900A83B07 /* Preview Content */,
 			);
@@ -83,6 +100,14 @@
 			dependencies = (
 			);
 			name = PayVault;
+			packageProductDependencies = (
+				232F12F62B57526500A83B07 /* PhoneNumberKit */,
+				232F12F82B57526500A83B07 /* PhoneNumberKit-Dynamic */,
+				232F12FA2B57526500A83B07 /* PhoneNumberKit-Static */,
+				232F12FC2B57562900A83B07 /* PhoneNumberKit */,
+				232F12FE2B57562900A83B07 /* PhoneNumberKit-Dynamic */,
+				232F13002B57562900A83B07 /* PhoneNumberKit-Static */,
+			);
 			productName = PayVault;
 			productReference = 232F12E42B574E7700A83B07 /* PayVault.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 232F12DB2B574E7700A83B07;
+			packageReferences = (
+				232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+			);
 			productRefGroup = 232F12E52B574E7700A83B07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232F12EA2B574E7700A83B07 /* ContentView.swift in Sources */,
+				232F12EA2B574E7700A83B07 /* LogInScreenView.swift in Sources */,
 				232F12E82B574E7700A83B07 /* PayVaultApp.swift in Sources */,
+				23B3987B2B5833E200C2AE9F /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +289,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -279,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +374,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		232F12F62B57526500A83B07 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		232F12F82B57526500A83B07 /* PhoneNumberKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Dynamic";
+		};
+		232F12FA2B57526500A83B07 /* PhoneNumberKit-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Static";
+		};
+		232F12FC2B57562900A83B07 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		232F12FE2B57562900A83B07 /* PhoneNumberKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Dynamic";
+		};
+		232F13002B57562900A83B07 /* PhoneNumberKit-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232F12F52B57526400A83B07 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 232F12DC2B574E7700A83B07 /* Project object */;
 }
