@@ -3,16 +3,12 @@
 Created by Shubhada Martha
 SID: 919508091
 
-## About 
-FroggyVault is a mobile transaction app in SwiftUI, which can be used in place of physical card transactions!
-
-<p align="center">
-  <img src="https://github.com/smartha2003/ECS189E/assets/103222835/f5215d80-4bb8-4879-9138-a6f63a91a17f" width="300">
-</p>
-
 <p align="center">
   <img src="https://github.com/smartha2003/ECS189E/assets/103222835/767993b6-db3a-4515-9c86-ffbdb169ba95" width="300">
 </p>
+
+## About 
+FroggyVault is a mobile transaction app in SwiftUI, which can be used in place of physical card transactions!
 
 ## App Features
 - Dismissing Number Keypad
