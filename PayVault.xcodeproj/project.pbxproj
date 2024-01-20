@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		232F12E82B574E7700A83B07 /* PayVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F12E72B574E7700A83B07 /* PayVaultApp.swift */; };
 		232F12EA2B574E7700A83B07 /* LogInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F12E92B574E7700A83B07 /* LogInScreenView.swift */; };
-		232F12EC2B574E7900A83B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F12EB2B574E7900A83B07 /* Assets.xcassets */; };
+		232F12EC2B574E7900A83B07 /* Assests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F12EB2B574E7900A83B07 /* Assests.xcassets */; };
 		232F12EF2B574E7900A83B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F12EE2B574E7900A83B07 /* Preview Assets.xcassets */; };
 		232F12F72B57526500A83B07 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12F62B57526500A83B07 /* PhoneNumberKit */; };
 		232F12F92B57526500A83B07 /* PhoneNumberKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 232F12F82B57526500A83B07 /* PhoneNumberKit-Dynamic */; };
@@ -24,7 +24,7 @@
 		232F12E42B574E7700A83B07 /* PayVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		232F12E72B574E7700A83B07 /* PayVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVaultApp.swift; sourceTree = "<group>"; };
 		232F12E92B574E7700A83B07 /* LogInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenView.swift; sourceTree = "<group>"; };
-		232F12EB2B574E7900A83B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		232F12EB2B574E7900A83B07 /* Assests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assests.xcassets; sourceTree = "<group>"; };
 		232F12EE2B574E7900A83B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23B3987A2B5833E200C2AE9F /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		23B3987E2B5AD2AD00C2AE9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 				23B3987E2B5AD2AD00C2AE9F /* README.md */,
 				23B3987A2B5833E200C2AE9F /* LaunchScreenView.swift */,
 				232F12E92B574E7700A83B07 /* LogInScreenView.swift */,
-				232F12EB2B574E7900A83B07 /* Assets.xcassets */,
+				232F12EB2B574E7900A83B07 /* Assests.xcassets */,
 				232F12ED2B574E7900A83B07 /* Preview Content */,
 			);
 			path = PayVault;
@@ -154,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232F12EF2B574E7900A83B07 /* Preview Assets.xcassets in Resources */,
-				232F12EC2B574E7900A83B07 /* Assets.xcassets in Resources */,
+				232F12EC2B574E7900A83B07 /* Assests.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

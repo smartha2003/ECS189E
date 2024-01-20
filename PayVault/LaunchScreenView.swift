@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct LaunchScreenView: View {
-    //Add the lauch Screen with the title and logo first and then navigate to this page to get the verification code; transition with time
-    
-    //Login Screen
     @State private var isActive = false
 
         var body: some View {
@@ -57,24 +54,6 @@ struct LaunchScreenView: View {
                 self.isActive = true
             }
         }
-//    var body: some View {
-//        VStack {
-//            Image("frogVault")
-//                .resizable()
-//                .scaledToFit()
-//                .frame(width: 400, height: 400)
-//                
-//            Text("FroggyVault")
-//                .bold()
-//                .font(.title)
-//                .padding()
-//                .foregroundColor(Color("DarkBrown"))
-//        }
-//        
-//        .containerRelativeFrame([.horizontal, .vertical])
-//        .background(Gradient(colors: [.teal, .cyan, .green]).opacity(0.6))
-//        .padding()
-//    }
 }
 
 #Preview {
